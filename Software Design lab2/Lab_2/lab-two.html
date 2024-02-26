@@ -1,0 +1,171 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>lab2</title>
+<style>
+
+  body {
+            margin: 0;
+            
+        }
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 10px 10%;
+    background-color: orange;
+    width:auto;
+    
+}
+
+footer{
+    background-color: orange;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 10px 10%;
+    bottom: 0;
+    margin-top: 20px;
+}
+header h3{
+    color:black;
+    font-style: normal;
+    text-decoration: solid;
+}
+
+ul{
+    list-style-type: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: sticky;
+    
+    
+}
+li{
+    float:inline-end;
+
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+.active{
+    background-color:white;
+}
+li :hover{
+    color:white;
+}
+
+h4{
+    text-align: center;
+}
+
+.services{
+   
+   margin-top: -60px;
+}
+
+
+
+section{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 80px; 
+    padding-top: 0px;
+}
+
+section figcaption{
+    text-align: center;
+    
+}
+
+img{
+    flex:content;
+    width: 600px;
+    height: 400px;
+    float: inline-end;   
+}
+section .inside{
+    display: flex;
+    border: 1px solid;
+    width:auto;
+    float: inline-end;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+
+
+</style>
+
+
+</head>
+
+
+<body>
+    <header>
+        <h3>Welcome to Software Design Website</h3>
+        <nav>
+            <ul>
+                <li> <a href="contact">Contact Us</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="about/">About Us</a></li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+    <h4>About Us</h4>
+<section>
+    
+    <figure>
+    <figcaption>We are a company dedicated to providing excellent services to our customers.</figcaption>
+    <img src="/pic_1.jpg" alt="pic_1">
+    </figure>
+
+  </section class= "parent"> 
+   
+    <h4 class="services">Our Services</h4>
+
+    <section >
+        
+    <section class="inside">
+
+     <figure class="border">
+        <h4>Web Development</h4>
+        <figcaption>
+                We specialize in creating responsive and user-friendly websites
+        </figcaption>
+        <img src="/pic_2.jpg" alt="pic_2">
+     </figure>
+    </section>
+<section class="inside">
+     <figure class="border">
+        <h4>Graphic Design</h4>
+        <figcaption>
+            Our talented designers can bring your ideas to life with stunning visuals
+        </figcaption>
+        <img src="/pic_3.jpg" alt="pic_2">
+     </figure>
+    </section>
+    </section>
+
+    <footer>
+        <p>©2024 The Lucky Company. All rights reserved.</p>
+    </footer>
+</body>
+
+</html> 
